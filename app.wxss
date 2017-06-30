@@ -1,0 +1,21 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+#toast{  
+	position: fixed;  
+	top: 0;  
+	left: 0;  
+	width: 90%;
+	background-color: #B1BCCF;  
+	padding: 20rpx 5%;  
+	text-align:center;  
+	opacity: 0.7; 
+	transition: opacity 0.5s ease-out;  
+}
